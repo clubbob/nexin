@@ -6,8 +6,9 @@ export default function ProductsPage() {
           {/* 헤더 */}
           <div className="mb-12 border-b border-gray-200 pb-8 dark:border-gray-800">
             <h1 className="text-4xl font-semibold text-gray-900 dark:text-white md:text-5xl">
-              제품 소개
+              <span className="text-blue-600 dark:text-blue-400">제품</span> 소개
             </h1>
+            <div className="mt-4 h-1 w-16 rounded-full bg-gradient-to-r from-blue-500 to-blue-600"></div>
           </div>
 
           {/* 컨텐츠 */}

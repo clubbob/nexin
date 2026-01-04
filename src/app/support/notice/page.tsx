@@ -1,4 +1,4 @@
-export default function AboutPage() {
+export default function NoticePage() {
   return (
     <div className="min-h-[calc(100vh-8rem)] bg-white dark:bg-gray-900">
       <div className="container mx-auto px-4 py-16 lg:px-8">
@@ -6,7 +6,7 @@ export default function AboutPage() {
           {/* 헤더 */}
           <div className="mb-12 border-b border-gray-200 pb-8 dark:border-gray-800">
             <h1 className="text-4xl font-semibold text-gray-900 dark:text-white md:text-5xl">
-              <span className="text-blue-600 dark:text-blue-400">회사</span> 소개
+              <span className="text-blue-600 dark:text-blue-400">공지</span> 사항
             </h1>
             <div className="mt-4 h-1 w-16 rounded-full bg-gradient-to-r from-blue-500 to-blue-600"></div>
           </div>
@@ -15,13 +15,13 @@ export default function AboutPage() {
           <div className="space-y-6">
             <div className="space-y-4 text-lg leading-relaxed text-gray-700 dark:text-gray-300">
               <p className="text-xl font-medium text-gray-900 dark:text-white">
-                Nexin에 오신 것을 환영합니다.
+                중요한 공지사항을 확인하세요.
               </p>
               <p>
-                저희는 고객 만족을 최우선으로 생각하며, 최고의 서비스를 제공하기 위해 노력하고 있습니다.
+                Nexin의 최신 소식과 업데이트 정보를 공지사항을 통해 안내해드립니다.
               </p>
               <p>
-                혁신적인 기술과 품질로 고객 여러분의 성공을 함께 만들어가겠습니다.
+                고객 여러분께 도움이 되는 정보를 지속적으로 제공하겠습니다.
               </p>
             </div>
           </div>
