@@ -19,7 +19,7 @@
 
 #### 변수 1: API Key
 - **Key**: `NEXT_PUBLIC_FIREBASE_API_KEY`
-- **Value**: `AIzaSyBDbxvnJKeLV3iV_0IZSaRuZqI94v95Lqg`
+- **Value**: `.env.local` 파일에서 복사한 API Key 값 입력
 - **Environment**: ✅ Production, ✅ Preview, ✅ Development 모두 체크
 
 #### 변수 2: Auth Domain
@@ -58,16 +58,18 @@
 
 ## 빠른 복사용 텍스트
 
-각 변수를 복사해서 사용하세요:
+각 변수를 `.env.local` 파일에서 복사해서 사용하세요:
 
 ```
-NEXT_PUBLIC_FIREBASE_API_KEY=AIzaSyBDbxvnJKeLV3iV_0IZSaRuZqI94v95Lqg
-NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=nexin-7290c.firebaseapp.com
-NEXT_PUBLIC_FIREBASE_PROJECT_ID=nexin-7290c
-NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=nexin-7290c.appspot.com
-NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=360924414138
-NEXT_PUBLIC_FIREBASE_APP_ID=1:360924414138:web:073573b174183233c94283
+NEXT_PUBLIC_FIREBASE_API_KEY=your_api_key_here
+NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=your-project-id.firebaseapp.com
+NEXT_PUBLIC_FIREBASE_PROJECT_ID=your-project-id
+NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=your-project-id.appspot.com
+NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=your_messaging_sender_id
+NEXT_PUBLIC_FIREBASE_APP_ID=your_app_id
 ```
+
+> **중요**: 실제 값은 `.env.local` 파일에서 확인하세요. 절대 실제 API Key를 이 문서에 포함하지 마세요.
 
 ## 확인 방법
 
